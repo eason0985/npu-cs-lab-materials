@@ -1,0 +1,136 @@
+#include <stdio.h>
+#include <stdlib.h>
+#define NULL ((void *)0)
+
+//     ڵ ṹ  
+typedef struct node {
+    int row, col, val;  //  кš  кš ֵ
+    struct node *down, *right;  // ָ   ·    ҷ   ָ  
+} node;
+
+typedef struct node *nodes;
+
+//     ʮ       ṹ  
+typedef struct crosslist {
+    nodes *row_head, *col_head;  //   ͷָ     ͷָ      
+    int m, n, len;
+} crosslist;
+
+//     ʮ      
+void creat(int m, int n, int t, crosslist *M) {
+    M->m = m;
+    M->n = n;
+    M->len = t;
+    //       ͷ    ͷָ      
+    M->row_head = (nodes *)malloc(sizeof(node) * (m + 1));
+    M->col_head = (nodes *)malloc(sizeof(node) * (n + 1));
+
+    //   ʼ    ͷָ  
+    for (int i = 0; i <= m; i++) {
+        M->row_head[i] = NULL;
+    }
+    //   ʼ    ͷָ  
+    for (int j = 0; j <= n; j++) {
+        M->col_head[j] = NULL;
+    }
+    for (int i = 0; i < t; i++) {
+        int row, col, val;
+        scanf("%d %d %d", &row, &col, &val);
+        node *p = (node *)malloc(sizeof(node));
+        p->row = row;
+        p->col = col;
+        p->val = val;
+        p->down = NULL;
+        p->right = NULL;
+
+        //           
+        if (M->row_head[row] == NULL) {
+            M->row_head[row] = p;
+        } else {
+            node *q = M->row_head[row];
+            while (q->right != NULL && q->right->col < col) {
+                q = q->right;
+            }
+            p->right = q->right;
+            q->right = p;
+        }
+
+        //           
+        if (M->col_head[col] == NULL) {
+            M->col_head[col] = p;
+        } else {
+            node *q = M->col_head[col];
+            while (q->down != NULL && q->down->row < row) {
+                q = q->down;
+            }
+            p->down = q->down;
+            q->down = p;
+        }
+    }
+}
+
+// ϡ     ļӷ 
+void add(crosslist *M1, crosslist *M2)
+{
+    //    б           
+    for(int i=1; i<=M1->m; i++)
+    {
+        node *p1 = M1->row_head[i];
+        node *p2 = M2->row_head[i];
+
+        // ͬʱ            ĵ ǰ  
+        while(p1 != NULL && p2 != NULL)
+        {
+            if(p1->col < p2->col)
+            {
+                //      һ       Ԫ  
+                printf("%d %d %d\n", p1->row, p1->col, p1->val);
+                p1 = p1->right;
+            }
+            else if(p1->col > p2->col)
+            {
+                //     ڶ        Ԫ  
+                printf("%d %d %d\n", p2->row, p2->col, p2->val);
+                p2 = p2->right;
+            }
+            else
+            {
+                //   ͬλ õ Ԫ     
+                int sum = p1->val + p2->val;
+                if(sum != 0)
+                {
+                    printf("%d %d %d\n", p1->row, p1->col, sum);
+                }
+                p1 = p1->right;
+                p2 = p2->right;
+            }
+        }
+        //       һ       ʣ  Ԫ  
+        while(p1 != NULL)
+        {
+            printf("%d %d %d\n", p1->row, p1->col, p1->val);
+            p1 = p1->right;
+        }
+        //      ڶ        ʣ  Ԫ  
+        while(p2 != NULL)
+        {
+            printf("%d %d %d\n", p2->row, p2->col, p2->val);
+            p2 = p2->right;
+        }
+    }
+}
+
+int main()
+{
+    int m,n,t1,t2;
+    scanf("%d%d%d%d",&m,&n,&t1,&t2);
+    // Ϊ            ڴ 
+    crosslist *M1 = (crosslist *)malloc(sizeof(crosslist));
+    crosslist *M2 = (crosslist *)malloc(sizeof(crosslist));
+    //              ʮ      
+    creat(m,n,t1,M1);
+    creat(m,n,t2,M2);
+    // ִ о   ӷ         
+    add(M1,M2);
+    return 0;
+}

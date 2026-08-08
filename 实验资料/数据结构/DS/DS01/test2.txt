@@ -1,0 +1,156 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+typedef struct node
+{
+    int data;// 存储数字
+    struct node *pre, *next;  // 前驱和后继指针
+} node, *nodes;
+
+// 函数声明
+nodes jisuan(nodes pi, int k);
+void jianli(nodes *L, int k);
+nodes jia(nodes L1, nodes L2);// 实现大数加法
+nodes chu(nodes L, nodes result, int k);  // 实现大数除法
+nodes cheng(nodes L, nodes result, int k); // 实现大数乘法
+
+int main()
+{
+    int n;
+    int k;
+    scanf("%d", &n);
+
+
+    //计算k的值（迭代次数）
+    double i = 1;
+    for (double sum = 0; sum <= n + 1; i++)
+    {
+        sum = sum + log10((2 * i + 1) / i);
+    }
+    k = (int)i;
+
+    nodes pi;
+    jianli(&pi, k);  // 初始化存储π值的链表
+    jisuan(pi, k);   // 计算π值
+
+    // 输出π值
+    nodes p;
+    p = pi->next;
+    printf("%d", p->data);
+    p = p->next;
+    printf(".");
+    for (int i = 0; i < n; i++)
+    {
+        printf("%d", p->data);
+        p = p->next;
+    }
+    free(pi);
+    return 0;
+}
+nodes jisuan(nodes pi, int k)
+{
+    nodes L, R;  // 创建两个临时链表用于中间计算
+    jianli(&L, k);
+    jianli(&R, k);
+
+    // 初始化第一个数为2（π/2的初始值）
+    pi->next->data = 2;
+    R->next->data = 2;
+    for (int i = 1; i < k; i++)
+    {
+        cheng(R, L, i);
+        chu(L, R, (2 * i + 1));
+        jia(pi, R);
+    }
+
+    free(L);
+    free(R);
+    return pi;
+}
+
+//L: 链表头指针的指针,k: 链表节点数量（不包括头节点）
+void jianli(nodes *L, int k) {
+    *L = (nodes)malloc(sizeof(node));
+    (*L)->pre = *L;
+    (*L)->next = *L;
+
+    nodes q = *L;
+    for (int i = 0; i < k; i++) {
+        nodes s = (nodes)malloc(sizeof(node));
+        s->data = 0;
+        s->next = *L;
+        s->pre = q;
+        q->next = s;
+        q = s;
+    }
+    (*L)->pre = q;
+}
+
+//大数加法函数 L1: 被加数（同时也是结果）L2: 加数
+nodes jia(nodes L1, nodes L2)
+{
+    nodes p, q;
+    int jin = 0;  // 进位值
+    p = L1->pre;  // 从最低位开始
+    q = L2->pre;
+
+    // 从低位到高位进行加法运算
+    while (p != L1 && q != L2)
+    {
+        p->data = p->data + q->data + jin;
+        jin = p->data / 10;
+        p->data = p->data % 10;
+        p = p->pre;
+        q = q->pre;
+    }
+// 处理剩余进位
+    while (jin > 0 && p != L1)
+    {
+        p->data = p->data + jin;
+        jin = p->data / 10;
+        p->data = p->data % 10;
+        p = p->pre;
+    }
+    return L1;
+}
+//大数乘法函数 L: 被乘数 result: 存储结果的链表 k: 乘数
+nodes cheng(nodes L, nodes result, int k)
+{
+    nodes p, q;
+    int jin = 0;
+    p = L->pre;
+    q = result->pre;
+    while (p != L && q != result)
+    {
+        q->data = p->data * k + jin;
+        jin = q->data / 10;
+        q->data = q->data % 10;
+        p = p->pre;
+        q = q->pre;
+    }
+// 处理剩余进位
+    while (jin > 0 && q != result)
+    {
+        q->data = jin;
+        jin = q->data / 10;
+        q->data = q->data % 10;
+        q = q->pre;
+    }
+    return result;
+}
+//大数除法函数 L: 被除数 result: 存储结果的链表 k: 除数
+nodes chu(nodes L, nodes result, int k)
+{
+    int num = 0;  // 临时存储被除数
+    nodes p = L->next;    // 从最高位开始
+    nodes q = result->next;
+    while (p != L && q != result)
+    {
+        num = num * 10 + p->data;
+        q->data = num / k;
+        num = num % k;
+        p = p->next;
+        q = q->next;
+    }
+    return result;
+}

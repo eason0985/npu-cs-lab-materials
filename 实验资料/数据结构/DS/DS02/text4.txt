@@ -1,0 +1,97 @@
+#include<stdio.h>
+
+//    Ŀ1ͬ  
+void sort(int a[][3], int n)
+{
+    for(int i = 0; i < n - 1; i++)
+    {
+        int min = i;
+        for(int j = i + 1; j < n; j++)
+        {
+            if(a[j][0] < a[min][0] || (a[j][0] == a[min][0] && a[j][1] < a[min][1]))
+            {
+                min = j;
+            }
+        }
+        if(min != i)
+        {
+            for(int k = 0; k < 3; k++)
+            {
+                int temp = a[i][k];
+                a[i][k] = a[min][k];
+                a[min][k] = temp;
+            }
+        }
+    }
+}
+int multiply(int a[][3],int b[][3],int c[][3],int m,int n,int p,int q)
+{
+    int cnt = 0;  //   ˺    Ԫ ظ   
+    for(int i=0;a[i][0]!=0;i++)
+    {
+        int row_a=a[i][0];
+        int col_a=a[i][1];
+        int val_a=a[i][2];
+        for(int j=0; b[j][0]!=0; j++)
+        {
+            int row_b=b[j][0];
+            int col_b=b[j][1];
+            int val_b=b[j][2];
+            int flag = 0;
+            if(col_a == row_b)  //        ˷     
+            {
+                //             Ƿ    и λ õ Ԫ  
+                for(int k=0; k<cnt; k++)
+                {
+                    if(c[k][0] == row_a && c[k][1] == col_b)
+                    {
+                        c[k][2] += val_a * val_b;  //  ۼ 
+                        flag = 1;
+                        break;
+                    }
+                }
+                if(flag==0)  //      λ û û  Ԫ  
+                {
+                    c[cnt][0] = row_a;
+                    c[cnt][1] = col_b;
+                    c[cnt][2] = val_a * val_b;
+                    cnt++;
+                }
+            }
+        }
+    }
+    return cnt;
+}
+
+int main()
+{
+    int m,n;
+    int p,q;
+    scanf("%d%d",&m,&n);
+    int a[100][3];
+    int i=0;
+    while(scanf("%d%d%d",&a[i][0],&a[i][1],&a[i][2]))
+    {
+        if(a[i][0]==0&&a[i][1]==0&&a[i][2]==0)
+            break;
+        i++;
+    }
+    scanf("%d%d",&p,&q);
+    int b[100][3];
+    int j=0;
+    while(scanf("%d%d%d",&b[j][0],&b[j][1],&b[j][2]))
+    {
+        if(b[j][0]==0&&b[j][1]==0&&b[j][2]==0)
+            break;
+        j++;
+    }
+    int c[100][3];
+    int num = multiply(a,b,c,m,n,p,q);
+    sort(c,num);
+    //        
+    for(int k=0; k<num; k++)
+    {
+        printf("%d %d %d\n", c[k][0], c[k][1], c[k][2]);
+    }
+    return 0;
+}

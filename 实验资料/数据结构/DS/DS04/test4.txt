@@ -1,0 +1,55 @@
+#include <stdio.h>
+#define INF 10000
+int dist[100][100];
+int path[100][100];
+
+//  ݹ      u  v  ·  
+void printPath(int u, int v)
+{
+    if (path[u][v] == -1) // û   м 㣬ֱ      յ 
+    {
+        printf("%d\n", v);
+        return;
+    }
+    printPath(u, path[u][v]);
+    printPath(path[u][v], v);
+}
+
+// Floyd 㷨         ·    ·    ¼
+void f(int n)
+{
+    for (int k = 0; k < n; k++)
+        for (int i = 0; i < n; i++)
+            for (int j = 0; j < n; j++)
+                if (dist[i][k] + dist[k][j] < dist[i][j])
+                {
+                    dist[i][j] = dist[i][k] + dist[k][j];
+                    path[i][j] = k;
+                }
+}
+
+int main()
+{
+    int n;
+    scanf("%d", &n);
+    //      ڽӾ  󲢳 ʼ  path    
+    for (int i = 0; i < n; i++)
+        for (int j = 0; j < n; j++)
+        {
+            scanf("%d", &dist[i][j]);
+            path[i][j] = -1;
+        }
+    f(n); //        е     ·  
+    int m;
+    scanf("%d", &m);
+    //     m   ѯ     ·  
+    for (int i = 0; i < m; i++)
+    {
+        int u, v;
+        scanf("%d %d", &u, &v);
+        printf("%d\n", u);
+        if (u != v)
+            printPath(u, v);
+    }
+    return 0;
+}

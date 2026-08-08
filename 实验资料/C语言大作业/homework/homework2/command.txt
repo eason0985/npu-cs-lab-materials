@@ -1,0 +1,4 @@
+add 学号 姓名
+remove 学号 姓名
+list 文件名
+rand 人数 文件名

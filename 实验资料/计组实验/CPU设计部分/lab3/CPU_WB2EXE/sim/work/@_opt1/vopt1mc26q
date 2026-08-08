@@ -1,0 +1,326 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\dan\Desktop\CPU\lab2\CPU_J\sim
+T_opt
+V_PDZJ3I50:@iCM8:^@FlU0
+Z1 04 7 4 work tb_cpu1 fast 0
+=1-cc28aabaff12-6a211d43-249-88a4
+o-quiet -auto_acc_if_foreign -work work
+n@_opt
+Z2 OL;O;10.1c;51
+Z3 dC:\Users\dan\Desktop\CPU\lab2\CPU_J\sim
+T_opt1
+VA5FVNP`8AI^CI;3>N:Qak1
+R1
+=1-cc28aabaff12-6a2128ba-2e8-8458
+o-quiet -auto_acc_if_foreign -work work +acc
+n@_opt1
+R2
+valu
+In_?zEhL`B:I?2W0M6L@DD0
+V]1BEB3j0NZinUHMfh2Qd61
+Z4 dC:\Users\dan\Desktop\CPU\lab3\CPU_WB2EXE\sim
+w1779891948
+8C:/Users/dan/Desktop/CPU/lab3/CPU_WB2EXE/alu.v
+FC:/Users/dan/Desktop/CPU/lab3/CPU_WB2EXE/alu.v
+L0 15
+Z5 OL;L;10.1c;51
+r1
+31
+Z6 o-work work -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+!s100 7^oZ0=jFS3mUiEm@0RooR2
+!s90 -reportprogress|300|-work|work|-vopt|C:/Users/dan/Desktop/CPU/lab3/CPU_WB2EXE/alu.v|
+!s108 1780558004.334000
+!s107 C:/Users/dan/Desktop/CPU/lab3/CPU_WB2EXE/alu.v|
+!i10b 1
+!s85 0
+vbypass
+I6d0DCQN>zF^zOJ;1d>WcP3
+V67>eak1>?S9Fi=KF:MlgI3
+R4
+w1780321648
+8C:/Users/dan/Desktop/CPU/lab3/CPU_WB2EXE/bypass.v
+FC:/Users/dan/Desktop/CPU/lab3/CPU_WB2EXE/bypass.v
+L0 1
+R5
+r1
+31
+R6
+!s100 gN7]9dR9TabkJ6e]BlEhH2
+!s90 -reportprogress|300|-work|work|-vopt|C:/Users/dan/Desktop/CPU/lab3/CPU_WB2EXE/bypass.v|
+!s108 1780558004.405000
+!s107 C:/Users/dan/Desktop/CPU/lab3/CPU_WB2EXE/bypass.v|
+!i10b 1
+!s85 0
+vctrl
+IfUTl@ISz>DLY76k9GQ;@J3
+V[0JzBfT7kUE:QngIB=8^13
+R4
+w1780303022
+8C:/Users/dan/Desktop/CPU/lab3/CPU_WB2EXE/ctrl.v
+FC:/Users/dan/Desktop/CPU/lab3/CPU_WB2EXE/ctrl.v
+L0 1
+R5
+r1
+31
+R6
+!s100 >:fX=`NWWodJ]9iD<<l;I2
+!s90 -reportprogress|300|-work|work|-vopt|C:/Users/dan/Desktop/CPU/lab3/CPU_WB2EXE/ctrl.v|
+!s108 1780558004.476000
+!s107 C:/Users/dan/Desktop/CPU/lab3/CPU_WB2EXE/ctrl.v|
+!i10b 1
+!s85 0
+vdm
+I8GE;^50CHoG9@I9J186`@2
+VPRbDI>GD@ANPR]5`ToEjA0
+R4
+w1779885476
+8C:/Users/dan/Desktop/CPU/lab3/CPU_WB2EXE/dm.v
+FC:/Users/dan/Desktop/CPU/lab3/CPU_WB2EXE/dm.v
+L0 2
+R5
+r1
+31
+R6
+!s100 4n9MTT_<O[nD[knAH0ICS2
+!s90 -reportprogress|300|-work|work|-vopt|C:/Users/dan/Desktop/CPU/lab3/CPU_WB2EXE/dm.v|
+!s108 1780558004.550000
+!s107 C:/Users/dan/Desktop/CPU/lab3/CPU_WB2EXE/dm.v|
+!i10b 1
+!s85 0
+vexe_mem
+IhJIRP;4SK6[aoOG7;TKHm1
+Vc=DnWff?UPTP:Dn8?ZeU:3
+R4
+w1780304560
+8C:/Users/dan/Desktop/CPU/lab3/CPU_WB2EXE/exe_mem.v
+FC:/Users/dan/Desktop/CPU/lab3/CPU_WB2EXE/exe_mem.v
+L0 1
+R5
+r1
+31
+R6
+!s100 RbnRDGcDaD4ANK25Pi][W3
+!s90 -reportprogress|300|-work|work|-vopt|C:/Users/dan/Desktop/CPU/lab3/CPU_WB2EXE/exe_mem.v|
+!s108 1780558004.621000
+!s107 C:/Users/dan/Desktop/CPU/lab3/CPU_WB2EXE/exe_mem.v|
+!i10b 1
+!s85 0
+vext
+I4PPCmXiUM3ef5nhdD`i?92
+VjH;XC^CjJKWXIBVEC^]323
+R4
+w1779882265
+8C:/Users/dan/Desktop/CPU/lab3/CPU_WB2EXE/ext.v
+FC:/Users/dan/Desktop/CPU/lab3/CPU_WB2EXE/ext.v
+L0 1
+R5
+r1
+31
+R6
+!s100 oCND<3j_BQ=L^OH<WRW<O2
+!s90 -reportprogress|300|-work|work|-vopt|C:/Users/dan/Desktop/CPU/lab3/CPU_WB2EXE/ext.v|
+!s108 1780558004.691000
+!s107 C:/Users/dan/Desktop/CPU/lab3/CPU_WB2EXE/ext.v|
+!i10b 1
+!s85 0
+vgpr
+IE7c64NzOMj9EUNJ;a9?Bc0
+VP^8[::KZQd6@5[0QmJ^0Q3
+R4
+w1779526547
+8C:/Users/dan/Desktop/CPU/lab3/CPU_WB2EXE/gpr.v
+FC:/Users/dan/Desktop/CPU/lab3/CPU_WB2EXE/gpr.v
+L0 2
+R5
+r1
+31
+R6
+!s100 m;cj1n3Q;gO;l182?kXVY0
+!s90 -reportprogress|300|-work|work|-vopt|C:/Users/dan/Desktop/CPU/lab3/CPU_WB2EXE/gpr.v|
+!s108 1780558004.763000
+!s107 C:/Users/dan/Desktop/CPU/lab3/CPU_WB2EXE/gpr.v|
+!i10b 1
+!s85 0
+vid_exe
+I:Mz<H[g7bQJi?51F@2n1W1
+VKfJXF;ooC`=b1]hj6IAHO3
+R4
+w1780311884
+8C:/Users/dan/Desktop/CPU/lab3/CPU_WB2EXE/id_exe.v
+FC:/Users/dan/Desktop/CPU/lab3/CPU_WB2EXE/id_exe.v
+L0 2
+R5
+r1
+31
+R6
+!s100 P3fEN<Yn;kd@C0W]AX[X30
+!s90 -reportprogress|300|-work|work|-vopt|C:/Users/dan/Desktop/CPU/lab3/CPU_WB2EXE/id_exe.v|
+!s108 1780558004.833000
+!s107 C:/Users/dan/Desktop/CPU/lab3/CPU_WB2EXE/id_exe.v|
+!i10b 1
+!s85 0
+vif_id
+IacHiYB2UgFdDWiQ7`^ci_1
+VE7N[<T<O:@`LXKZMKo2@L3
+R4
+w1780304700
+8C:/Users/dan/Desktop/CPU/lab3/CPU_WB2EXE/if_id.v
+FC:/Users/dan/Desktop/CPU/lab3/CPU_WB2EXE/if_id.v
+L0 2
+R5
+r1
+31
+R6
+!s100 SHOWOeW[za>^DGn7l<oCc2
+!s90 -reportprogress|300|-work|work|-vopt|C:/Users/dan/Desktop/CPU/lab3/CPU_WB2EXE/if_id.v|
+!s108 1780558004.905000
+!s107 C:/Users/dan/Desktop/CPU/lab3/CPU_WB2EXE/if_id.v|
+!i10b 1
+!s85 0
+vim
+I>jmA]^R`JR;OBzO[;]?7i0
+VGKc5Q>9SOgYi@iPiKRP_]3
+R4
+w1779456866
+8C:/Users/dan/Desktop/CPU/lab3/CPU_WB2EXE/im.v
+FC:/Users/dan/Desktop/CPU/lab3/CPU_WB2EXE/im.v
+L0 2
+R5
+r1
+31
+R6
+!s100 ]TQgBF4M?2P<dFXl2QB@Y3
+!s90 -reportprogress|300|-work|work|-vopt|C:/Users/dan/Desktop/CPU/lab3/CPU_WB2EXE/im.v|
+!s108 1780558004.976000
+!s107 C:/Users/dan/Desktop/CPU/lab3/CPU_WB2EXE/im.v|
+!i10b 1
+!s85 0
+vmem_wb
+Ij`OK6oQAckf_JNS0D1MOD1
+V]`eFQY[0D5g6dEQb1UQmj1
+R4
+w1780304920
+8C:/Users/dan/Desktop/CPU/lab3/CPU_WB2EXE/mem_wb.v
+FC:/Users/dan/Desktop/CPU/lab3/CPU_WB2EXE/mem_wb.v
+L0 2
+R5
+r1
+31
+R6
+!s100 VhOM<[S;hLe[AaoJifU2B0
+!s90 -reportprogress|300|-work|work|-vopt|C:/Users/dan/Desktop/CPU/lab3/CPU_WB2EXE/mem_wb.v|
+!s108 1780558005.048000
+!s107 C:/Users/dan/Desktop/CPU/lab3/CPU_WB2EXE/mem_wb.v|
+!i10b 1
+!s85 0
+vmux_32_2to1
+I[?H[mM8l?Wal8HDDYHPJK2
+VUm[Q?Pck:iCNl=UQHHj<l0
+R4
+w1780305206
+8C:/Users/dan/Desktop/CPU/lab3/CPU_WB2EXE/mux_32_2to1.v
+FC:/Users/dan/Desktop/CPU/lab3/CPU_WB2EXE/mux_32_2to1.v
+L0 2
+R5
+r1
+31
+R6
+!s100 :VX8G8lbCXd051FLQDET?1
+!s90 -reportprogress|300|-work|work|-vopt|C:/Users/dan/Desktop/CPU/lab3/CPU_WB2EXE/mux_32_2to1.v|
+!s108 1780558005.187000
+!s107 C:/Users/dan/Desktop/CPU/lab3/CPU_WB2EXE/mux_32_2to1.v|
+!i10b 1
+!s85 0
+vmux_32_3to1
+I=dKZCej84[if1kDmWch7a1
+Vf=3cV0^BaS?ZZYnl;gG[V2
+R4
+w1780304976
+8C:/Users/dan/Desktop/CPU/lab3/CPU_WB2EXE/mux_32_3to1.v
+FC:/Users/dan/Desktop/CPU/lab3/CPU_WB2EXE/mux_32_3to1.v
+L0 2
+R5
+r1
+31
+R6
+!s100 ]Im2Eg_]AQ0HgMZSoY1o?0
+!s90 -reportprogress|300|-work|work|-vopt|C:/Users/dan/Desktop/CPU/lab3/CPU_WB2EXE/mux_32_3to1.v|
+!s108 1780558005.257000
+!s107 C:/Users/dan/Desktop/CPU/lab3/CPU_WB2EXE/mux_32_3to1.v|
+!i10b 1
+!s85 0
+vmux_5_3to1
+IX[dF>9jQe24Vf<hDNVmFz0
+VXl^:ni@a6UI^0WdCTZOT@3
+R4
+w1780305170
+8C:/Users/dan/Desktop/CPU/lab3/CPU_WB2EXE/mux_5_3to1.v
+FC:/Users/dan/Desktop/CPU/lab3/CPU_WB2EXE/mux_5_3to1.v
+L0 2
+R5
+r1
+31
+R6
+!s100 L1iQj4U_lmJOJRaHSGU]43
+!s90 -reportprogress|300|-work|work|-vopt|C:/Users/dan/Desktop/CPU/lab3/CPU_WB2EXE/mux_5_3to1.v|
+!s108 1780558005.118000
+!s107 C:/Users/dan/Desktop/CPU/lab3/CPU_WB2EXE/mux_5_3to1.v|
+!i10b 1
+!s85 0
+vpc
+I:?]fU0?F9=0ADognASKmd2
+VA?NInE:=QUI?55fo70hZU0
+R4
+w1779456748
+8C:/Users/dan/Desktop/CPU/lab3/CPU_WB2EXE/pc.v
+FC:/Users/dan/Desktop/CPU/lab3/CPU_WB2EXE/pc.v
+L0 2
+R5
+r1
+31
+R6
+!s100 OcjSJ09_;g8McjBWA9hjE1
+!s90 -reportprogress|300|-work|work|-vopt|C:/Users/dan/Desktop/CPU/lab3/CPU_WB2EXE/pc.v|
+!s108 1780558005.328000
+!s107 C:/Users/dan/Desktop/CPU/lab3/CPU_WB2EXE/pc.v|
+!i10b 1
+!s85 0
+vpipeline_cpu
+ID:ck?c]`?DjX35cemVXTU2
+V_G1^`HEh4Xn[;YY8A?>mH2
+R4
+w1780320903
+8C:/Users/dan/Desktop/CPU/lab3/CPU_WB2EXE/pipeline_cpu.v
+FC:/Users/dan/Desktop/CPU/lab3/CPU_WB2EXE/pipeline_cpu.v
+L0 1
+R5
+r1
+31
+R6
+!s100 iTG;1[1EUn1>lD8>aZ]R]0
+!s90 -reportprogress|300|-work|work|-vopt|C:/Users/dan/Desktop/CPU/lab3/CPU_WB2EXE/pipeline_cpu.v|
+!i10b 1
+!s85 0
+!s108 1780558005.399000
+!s107 C:/Users/dan/Desktop/CPU/lab3/CPU_WB2EXE/pipeline_cpu.v|
+vtb_cpu1
+Ig;=bYLiBVXZ7Ao@V5QNHU1
+Vl7@JS4VUd4LZ]JnW_C>k32
+R4
+w1780557992
+8C:/Users/dan/Desktop/CPU/lab3/CPU_WB2EXE/sim/tb/tb_cpu1.v
+FC:/Users/dan/Desktop/CPU/lab3/CPU_WB2EXE/sim/tb/tb_cpu1.v
+L0 1
+R5
+r1
+31
+R6
+!s90 -reportprogress|300|-work|work|-vopt|C:/Users/dan/Desktop/CPU/lab3/CPU_WB2EXE/sim/tb/tb_cpu1.v|
+!s100 @:8CoBWC[AXn_R=Y[K0E_3
+!s108 1780558004.265000
+!s107 C:/Users/dan/Desktop/CPU/lab3/CPU_WB2EXE/sim/tb/tb_cpu1.v|
+!i10b 1
+!s85 0

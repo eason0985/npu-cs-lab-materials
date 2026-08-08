@@ -1,0 +1,108 @@
+C:/Users/dan/Desktop/CPU/lab2/CPU_J/ctrl.v {2 {vlog -work work -vopt C:/Users/dan/Desktop/CPU/lab2/CPU_J/ctrl.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module ctrl
+** Warning: C:/Users/dan/Desktop/CPU/lab2/CPU_J/ctrl.v(95): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+
+Top level modules:
+	ctrl
+
+} {} {}} C:/Users/dan/Desktop/CPU/lab2/CPU_J/im.v {1 {vlog -work work -vopt C:/Users/dan/Desktop/CPU/lab2/CPU_J/im.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module im
+
+Top level modules:
+	im
+
+} {} {}} C:/Users/dan/Desktop/CPU/lab2/CPU_J/add.v {1 {vlog -work work -vopt C:/Users/dan/Desktop/CPU/lab2/CPU_J/add.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module add
+
+Top level modules:
+	add
+
+} {} {}} C:/Users/dan/Desktop/CPU/lab2/CPU_J/dm.v {1 {vlog -work work -vopt C:/Users/dan/Desktop/CPU/lab2/CPU_J/dm.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module dm
+
+Top level modules:
+	dm
+
+} {} {}} C:/Users/dan/Desktop/CPU/lab2/CPU_J/gpr.v {1 {vlog -work work -vopt C:/Users/dan/Desktop/CPU/lab2/CPU_J/gpr.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module gpr
+
+Top level modules:
+	gpr
+
+} {} {}} C:/Users/dan/Desktop/CPU/lab2/CPU_J/sim/tb/tb_cpu1.v {1 {vlog -work work -vopt C:/Users/dan/Desktop/CPU/lab2/CPU_J/sim/tb/tb_cpu1.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module tb_cpu1
+
+Top level modules:
+	tb_cpu1
+
+} {} {}} C:/Users/dan/Desktop/CPU/lab2/CPU_J/pc.v {1 {vlog -work work -vopt C:/Users/dan/Desktop/CPU/lab2/CPU_J/pc.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module pc
+
+Top level modules:
+	pc
+
+} {} {}} C:/Users/dan/Desktop/CPU/lab2/CPU_J/mux_31_3to1.v {1 {vlog -work work -vopt C:/Users/dan/Desktop/CPU/lab2/CPU_J/mux_31_3to1.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module mux_32_3to1
+
+Top level modules:
+	mux_32_3to1
+
+} {} {}} C:/Users/dan/Desktop/CPU/lab2/CPU_J/mux_32_2to1.v {1 {vlog -work work -vopt C:/Users/dan/Desktop/CPU/lab2/CPU_J/mux_32_2to1.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module mux_32_2to1
+
+Top level modules:
+	mux_32_2to1
+
+} {} {}} C:/Users/dan/Desktop/CPU/lab2/CPU_J/jump.v {1 {vlog -work work -vopt C:/Users/dan/Desktop/CPU/lab2/CPU_J/jump.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module jump
+
+Top level modules:
+	jump
+
+} {} {}} C:/Users/dan/Desktop/CPU/lab2/CPU_J/mux_32_4to1.v {1 {vlog -work work -vopt C:/Users/dan/Desktop/CPU/lab2/CPU_J/mux_32_4to1.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module mux_32_4to1
+
+Top level modules:
+	mux_32_4to1
+
+} {} {}} C:/Users/dan/Desktop/CPU/lab2/CPU_J/mux_5.v {1 {vlog -work work -vopt C:/Users/dan/Desktop/CPU/lab2/CPU_J/mux_5.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module mux_5
+
+Top level modules:
+	mux_5
+
+} {} {}} C:/Users/dan/Desktop/CPU/lab2/CPU_J/ext.v {1 {vlog -work work -vopt C:/Users/dan/Desktop/CPU/lab2/CPU_J/ext.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module ext
+
+Top level modules:
+	ext
+
+} {} {}} C:/Users/dan/Desktop/CPU/lab2/CPU_J/s_cycle_cpu.v {1 {vlog -work work -vopt C:/Users/dan/Desktop/CPU/lab2/CPU_J/s_cycle_cpu.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module s_cycle_cpu
+
+Top level modules:
+	s_cycle_cpu
+
+} {} {}} C:/Users/dan/Desktop/CPU/lab2/CPU_J/alu.v {1 {vlog -work work -vopt C:/Users/dan/Desktop/CPU/lab2/CPU_J/alu.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module alu
+
+Top level modules:
+	alu
+
+} {} {}}

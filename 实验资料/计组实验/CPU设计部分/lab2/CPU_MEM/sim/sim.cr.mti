@@ -1,0 +1,64 @@
+C:/Users/dan/Desktop/CPU/lab2/CPU_MEM/s_cycle_cpu.v {1 {vlog -work work -vopt C:/Users/dan/Desktop/CPU/lab2/CPU_MEM/s_cycle_cpu.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module s_cycle_cpu
+
+Top level modules:
+	s_cycle_cpu
+
+} {} {}} C:/Users/dan/Desktop/CPU/lab2/CPU_MEM/gpr.v {1 {vlog -work work -vopt C:/Users/dan/Desktop/CPU/lab2/CPU_MEM/gpr.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module gpr
+
+Top level modules:
+	gpr
+
+} {} {}} C:/Users/dan/Desktop/CPU/lab2/CPU_MEM/ext.v {1 {vlog -work work -vopt C:/Users/dan/Desktop/CPU/lab2/CPU_MEM/ext.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module ext
+
+Top level modules:
+	ext
+
+} {} {}} C:/Users/dan/Desktop/CPU/lab2/CPU_MEM/dm.v {1 {vlog -work work -vopt C:/Users/dan/Desktop/CPU/lab2/CPU_MEM/dm.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module dm
+
+Top level modules:
+	dm
+
+} {} {}} C:/Users/dan/Desktop/CPU/lab2/CPU_MEM/mux_s_sum_write.v {1 {vlog -work work -vopt C:/Users/dan/Desktop/CPU/lab2/CPU_MEM/mux_s_sum_write.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module mux_s_sum_write
+
+Top level modules:
+	mux_s_sum_write
+
+} {} {}} C:/Users/dan/Desktop/CPU/lab2/CPU_MEM/im.v {1 {vlog -work work -vopt C:/Users/dan/Desktop/CPU/lab2/CPU_MEM/im.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module im
+
+Top level modules:
+	im
+
+} {} {}} C:/Users/dan/Desktop/CPU/lab2/CPU_MEM/pc.v {1 {vlog -work work -vopt C:/Users/dan/Desktop/CPU/lab2/CPU_MEM/pc.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module pc
+
+Top level modules:
+	pc
+
+} {} {}} C:/Users/dan/Desktop/CPU/lab2/CPU_MEM/mux_alu.v {1 {vlog -work work -vopt C:/Users/dan/Desktop/CPU/lab2/CPU_MEM/mux_alu.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module mux_alu
+
+Top level modules:
+	mux_alu
+
+} {} {}} C:/Users/dan/Desktop/CPU/lab2/CPU_MEM/sim/tb/tb_cpu1.v {1 {vlog -work work -vopt C:/Users/dan/Desktop/CPU/lab2/CPU_MEM/sim/tb/tb_cpu1.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module tb_cpu1
+
+Top level modules:
+	tb_cpu1
+
+} {} {}}

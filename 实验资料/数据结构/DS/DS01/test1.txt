@@ -1,0 +1,46 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int a[21];
+    int b[21];
+    int c[41];//        
+    int n,m;
+    scanf("%d",&n);//       n
+    for(int s=0;s<n;s++)
+    {
+        scanf("%d",&a[s]);//        и ֵ
+    }
+    scanf("%d",&m);//       m
+    for(int s=0;s<m;s++)
+    {
+        scanf("%d",&b[s]);//        и ֵ
+    }
+    int p = 0, q = 0, s = 0;
+    while(p < n && q < m)//  ʼ ϲ     
+    {
+        if(a[p] < b[q])//  a е Ԫ  С  b е Ԫ  ʱ
+        {
+            c[s++] = a[p++];//  a  Ԫ ظ ֵ  c
+        }
+        else //  b е Ԫ  С  a е Ԫ  ʱ
+        {
+            c[s++] = b[q++];//  b  Ԫ ظ ֵ  c
+        }
+    }
+    while(p < n)//   q Ѿ     m
+    {
+        c[s++] = a[p++];//  aʣ   Ԫ ظ ֵ  c
+    }
+    while(q < m)//   p Ѿ     n
+    {
+        c[s++] = b[q++];//  bʣ   Ԫ ظ ֵ  c
+    }
+    for(int i = 0; i < s; i++)
+    {
+        printf("%d\n", c[i]);//   c
+    }
+
+    return 0;
+}

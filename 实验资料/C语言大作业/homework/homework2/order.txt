@@ -1,0 +1,10 @@
+add 1 alice
+add 2 john
+add 3 op
+list output.txt
+remove 1 alice
+list output.txt
+add 1 alice
+add 4 jack
+add 5 unlastingstar
+rand 2 result.txt

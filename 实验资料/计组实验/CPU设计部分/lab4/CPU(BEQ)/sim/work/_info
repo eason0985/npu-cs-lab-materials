@@ -1,0 +1,407 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\dan\Desktop\CPU\lab3\CPU_WB2EXE\sim
+T_opt
+Z1 V<kMfa5cjY;TIPKHgaC]m80
+Z2 04 7 4 work tb_cpu1 fast 0
+Z3 =1-cc28aabaff12-6a29671b-9d-797c
+Z4 o-quiet -auto_acc_if_foreign -work work +acc
+Z5 n@_opt
+Z6 OL;O;10.1c;51
+Z7 dC:\Users\dan\Desktop\CPU\lab3\CPU_WB2EXE\sim
+T_opt1
+Z8 VO_9^TGUkiLR2`VCcOV2ON3
+R2
+Z9 =1-cc28aabaff12-6a25245f-2ba-8d10
+R4
+Z10 n@_opt1
+R6
+R7
+T_opt2
+Z11 V7HSek=UBHN8Ukn@M8DNNA0
+R2
+Z12 =1-cc28aabaff12-6a296058-3f-6c88
+Z13 o-quiet -auto_acc_if_foreign -work work
+Z14 n@_opt2
+R6
+R7
+vadd
+Z15 !s100 1ITRdEkBCam4Q5n4M2[hJ3
+Z16 IKb=L<XWGU2IWA]NhejkMD2
+Z17 VflJn4b=NjP_gah9dlNZHm3
+Z18 dC:\Users\dan\Desktop\CPU\lab4\CPU(BEQ)\sim
+Z19 w1780050186
+Z20 8C:/Users/dan/Desktop/CPU/lab4/CPU(BEQ)/add.v
+Z21 FC:/Users/dan/Desktop/CPU/lab4/CPU(BEQ)/add.v
+L0 1
+Z22 OL;L;10.1c;51
+r1
+31
+Z23 !s90 -reportprogress|300|-work|work|-vopt|C:/Users/dan/Desktop/CPU/lab4/CPU(BEQ)/add.v|
+Z24 o-work work -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+Z25 !s108 1781098490.097000
+Z26 !s107 C:/Users/dan/Desktop/CPU/lab4/CPU(BEQ)/add.v|
+!i10b 1
+!s85 0
+valu
+Z27 !s100 cKgXTEH]<Z647=6FEbRJ22
+Z28 IS4BP_]_nh^;UE9BUcQgW13
+Z29 V]1BEB3j0NZinUHMfh2Qd61
+R18
+Z30 w1779891948
+Z31 8C:/Users/dan/Desktop/CPU/lab4/CPU(BEQ)/alu.v
+Z32 FC:/Users/dan/Desktop/CPU/lab4/CPU(BEQ)/alu.v
+L0 15
+R22
+r1
+31
+Z33 !s90 -reportprogress|300|-work|work|-vopt|C:/Users/dan/Desktop/CPU/lab4/CPU(BEQ)/alu.v|
+R24
+Z34 !s108 1781098490.174000
+Z35 !s107 C:/Users/dan/Desktop/CPU/lab4/CPU(BEQ)/alu.v|
+!i10b 1
+!s85 0
+vblockage
+Z36 !s100 i:Ckf3k;]h8H[ZooU>AI_3
+Z37 Iaj8hiEYNR_GX6XQk<IF?e2
+Z38 VPZo:aiVO6OkA92QO2MD=X1
+R18
+Z39 w1781095957
+Z40 8C:/Users/dan/Desktop/CPU/lab4/CPU(BEQ)/blockage.v
+Z41 FC:/Users/dan/Desktop/CPU/lab4/CPU(BEQ)/blockage.v
+L0 1
+R22
+r1
+31
+Z42 !s90 -reportprogress|300|-work|work|-vopt|C:/Users/dan/Desktop/CPU/lab4/CPU(BEQ)/blockage.v|
+R24
+Z43 !s108 1781098490.249000
+Z44 !s107 C:/Users/dan/Desktop/CPU/lab4/CPU(BEQ)/blockage.v|
+!i10b 1
+!s85 0
+vbypass
+Z45 !s100 fiW`WMUjOC=nQOAQ1HNDi2
+Z46 I2ZAKb3d>W_b:7BL8E^?403
+Z47 V67>eak1>?S9Fi=KF:MlgI3
+R18
+Z48 w1780561084
+Z49 8C:/Users/dan/Desktop/CPU/lab4/CPU(BEQ)/bypass.v
+Z50 FC:/Users/dan/Desktop/CPU/lab4/CPU(BEQ)/bypass.v
+L0 1
+R22
+r1
+31
+Z51 !s90 -reportprogress|300|-work|work|-vopt|C:/Users/dan/Desktop/CPU/lab4/CPU(BEQ)/bypass.v|
+R24
+Z52 !s108 1781098490.325000
+Z53 !s107 C:/Users/dan/Desktop/CPU/lab4/CPU(BEQ)/bypass.v|
+!i10b 1
+!s85 0
+vctrl
+Z54 !s100 7R7kdT``nAFF;jN]2WBS92
+Z55 IMOR5N>gXjFZ@zPjcK:9Td3
+Z56 Vg_kc8=VDAOZEmHeAzi@I;2
+R18
+Z57 w1781097417
+Z58 8C:/Users/dan/Desktop/CPU/lab4/CPU(BEQ)/ctrl.v
+Z59 FC:/Users/dan/Desktop/CPU/lab4/CPU(BEQ)/ctrl.v
+L0 1
+R22
+r1
+31
+Z60 !s90 -reportprogress|300|-work|work|-vopt|C:/Users/dan/Desktop/CPU/lab4/CPU(BEQ)/ctrl.v|
+R24
+Z61 !s108 1781098490.391000
+Z62 !s107 C:/Users/dan/Desktop/CPU/lab4/CPU(BEQ)/ctrl.v|
+!i10b 1
+!s85 0
+vdm
+Z63 !s100 U8Fg5Aeoa3:_4K[lo]]kj1
+Z64 Ime;>C3W^feEZzTi1eJ_P13
+Z65 VPRbDI>GD@ANPR]5`ToEjA0
+R18
+Z66 w1779885476
+Z67 8C:/Users/dan/Desktop/CPU/lab4/CPU(BEQ)/dm.v
+Z68 FC:/Users/dan/Desktop/CPU/lab4/CPU(BEQ)/dm.v
+L0 2
+R22
+r1
+31
+Z69 !s90 -reportprogress|300|-work|work|-vopt|C:/Users/dan/Desktop/CPU/lab4/CPU(BEQ)/dm.v|
+R24
+Z70 !s108 1781098490.477000
+Z71 !s107 C:/Users/dan/Desktop/CPU/lab4/CPU(BEQ)/dm.v|
+!i10b 1
+!s85 0
+vexe_mem
+Z72 !s100 Xa7X1FMz1gBjAz56UG<AB1
+Z73 I=WnHbVGT8c?_KQ?SL2@f>2
+Z74 Vc=DnWff?UPTP:Dn8?ZeU:3
+R18
+Z75 w1780304560
+Z76 8C:/Users/dan/Desktop/CPU/lab4/CPU(BEQ)/exe_mem.v
+Z77 FC:/Users/dan/Desktop/CPU/lab4/CPU(BEQ)/exe_mem.v
+L0 1
+R22
+r1
+31
+Z78 !s90 -reportprogress|300|-work|work|-vopt|C:/Users/dan/Desktop/CPU/lab4/CPU(BEQ)/exe_mem.v|
+R24
+Z79 !s108 1781098490.550000
+Z80 !s107 C:/Users/dan/Desktop/CPU/lab4/CPU(BEQ)/exe_mem.v|
+!i10b 1
+!s85 0
+vext
+Z81 !s100 <3AYkaOFH88KoY;Y3ElZ]2
+Z82 IeMKiDJoOD[2TcY]gR7RNA0
+Z83 VjH;XC^CjJKWXIBVEC^]323
+R18
+Z84 w1779882265
+Z85 8C:/Users/dan/Desktop/CPU/lab4/CPU(BEQ)/ext.v
+Z86 FC:/Users/dan/Desktop/CPU/lab4/CPU(BEQ)/ext.v
+L0 1
+R22
+r1
+31
+Z87 !s90 -reportprogress|300|-work|work|-vopt|C:/Users/dan/Desktop/CPU/lab4/CPU(BEQ)/ext.v|
+R24
+Z88 !s108 1781098490.725000
+Z89 !s107 C:/Users/dan/Desktop/CPU/lab4/CPU(BEQ)/ext.v|
+!i10b 1
+!s85 0
+vgpr
+Z90 !s100 gh]6ejC41LY3SE9j53e230
+Z91 I<Ef`IjB3Hb;NUOe0?hIkM2
+Z92 VP^8[::KZQd6@5[0QmJ^0Q3
+R18
+Z93 w1779526547
+Z94 8C:/Users/dan/Desktop/CPU/lab4/CPU(BEQ)/gpr.v
+Z95 FC:/Users/dan/Desktop/CPU/lab4/CPU(BEQ)/gpr.v
+L0 2
+R22
+r1
+31
+Z96 !s90 -reportprogress|300|-work|work|-vopt|C:/Users/dan/Desktop/CPU/lab4/CPU(BEQ)/gpr.v|
+R24
+Z97 !s108 1781098490.801000
+Z98 !s107 C:/Users/dan/Desktop/CPU/lab4/CPU(BEQ)/gpr.v|
+!i10b 1
+!s85 0
+vid_exe
+Z99 !s100 id4W0YX3h=_YAoAk_H0F@0
+Z100 IJLY296QHKTz:05I_Y^aN`0
+Z101 V9W7Hl1CHIgemXScSm0]zz1
+R18
+Z102 w1781091132
+Z103 8C:/Users/dan/Desktop/CPU/lab4/CPU(BEQ)/id_exe.v
+Z104 FC:/Users/dan/Desktop/CPU/lab4/CPU(BEQ)/id_exe.v
+L0 2
+R22
+r1
+31
+Z105 !s90 -reportprogress|300|-work|work|-vopt|C:/Users/dan/Desktop/CPU/lab4/CPU(BEQ)/id_exe.v|
+R24
+Z106 !s108 1781098490.879000
+Z107 !s107 C:/Users/dan/Desktop/CPU/lab4/CPU(BEQ)/id_exe.v|
+!i10b 1
+!s85 0
+vif_id
+Z108 !s100 T^H4UNglKGbn70<SFZ6Q?2
+Z109 I??b@`G`QFCf]RHZ[S@1@U2
+Z110 Vib2G;j]j40An<JBGOCMFF1
+R18
+Z111 w1781010534
+Z112 8C:/Users/dan/Desktop/CPU/lab4/CPU(BEQ)/if_id.v
+Z113 FC:/Users/dan/Desktop/CPU/lab4/CPU(BEQ)/if_id.v
+L0 2
+R22
+r1
+31
+Z114 !s90 -reportprogress|300|-work|work|-vopt|C:/Users/dan/Desktop/CPU/lab4/CPU(BEQ)/if_id.v|
+R24
+Z115 !s108 1781098490.964000
+Z116 !s107 C:/Users/dan/Desktop/CPU/lab4/CPU(BEQ)/if_id.v|
+!i10b 1
+!s85 0
+vim
+Z117 !s100 Q;oeOgieJO=A8HlS9`YHZ1
+Z118 I>mA1C`cL`bXzBVP?[??NS0
+Z119 VGKc5Q>9SOgYi@iPiKRP_]3
+R18
+Z120 w1779456866
+Z121 8C:/Users/dan/Desktop/CPU/lab4/CPU(BEQ)/im.v
+Z122 FC:/Users/dan/Desktop/CPU/lab4/CPU(BEQ)/im.v
+L0 2
+R22
+r1
+31
+Z123 !s90 -reportprogress|300|-work|work|-vopt|C:/Users/dan/Desktop/CPU/lab4/CPU(BEQ)/im.v|
+R24
+Z124 !s108 1781098491.039000
+Z125 !s107 C:/Users/dan/Desktop/CPU/lab4/CPU(BEQ)/im.v|
+!i10b 1
+!s85 0
+vjump
+Z126 !s100 WAR06364I[?i?iJ4BoNJ31
+Z127 IiI6=JlY1ekPombG?Tan`>0
+Z128 VT^QZN_EzKc<?BKmA<Q;0j1
+R18
+Z129 w1780024081
+Z130 8C:/Users/dan/Desktop/CPU/lab4/CPU(BEQ)/jump.v
+Z131 FC:/Users/dan/Desktop/CPU/lab4/CPU(BEQ)/jump.v
+L0 1
+R22
+r1
+31
+Z132 !s90 -reportprogress|300|-work|work|-vopt|C:/Users/dan/Desktop/CPU/lab4/CPU(BEQ)/jump.v|
+R24
+Z133 !s108 1781098491.121000
+Z134 !s107 C:/Users/dan/Desktop/CPU/lab4/CPU(BEQ)/jump.v|
+!i10b 1
+!s85 0
+vmem_wb
+Z135 !s100 2SefVUbVSVKfgS5hG@fZQ1
+Z136 IKccGXcUH[cmbZ3ZB4QYMC0
+Z137 V]`eFQY[0D5g6dEQb1UQmj1
+R18
+Z138 w1780304920
+Z139 8C:/Users/dan/Desktop/CPU/lab4/CPU(BEQ)/mem_wb.v
+Z140 FC:/Users/dan/Desktop/CPU/lab4/CPU(BEQ)/mem_wb.v
+L0 2
+R22
+r1
+31
+Z141 !s90 -reportprogress|300|-work|work|-vopt|C:/Users/dan/Desktop/CPU/lab4/CPU(BEQ)/mem_wb.v|
+R24
+Z142 !s108 1781098491.185000
+Z143 !s107 C:/Users/dan/Desktop/CPU/lab4/CPU(BEQ)/mem_wb.v|
+!i10b 1
+!s85 0
+vmux_32_2to1
+Z144 !s100 c>zJ^@8^<U0g_[UhHM7:m3
+Z145 I?fD6_1B=HWGi23YXf7Bn53
+Z146 VUm[Q?Pck:iCNl=UQHHj<l0
+R18
+Z147 w1780305206
+Z148 8C:/Users/dan/Desktop/CPU/lab4/CPU(BEQ)/mux_32_2to1.v
+Z149 FC:/Users/dan/Desktop/CPU/lab4/CPU(BEQ)/mux_32_2to1.v
+L0 2
+R22
+r1
+31
+Z150 !s90 -reportprogress|300|-work|work|-vopt|C:/Users/dan/Desktop/CPU/lab4/CPU(BEQ)/mux_32_2to1.v|
+R24
+Z151 !s108 1781098491.353000
+Z152 !s107 C:/Users/dan/Desktop/CPU/lab4/CPU(BEQ)/mux_32_2to1.v|
+!i10b 1
+!s85 0
+vmux_32_3to1
+Z153 !s100 E`Z4@^HW?0jghF;gOa0j[0
+Z154 I7E8]Bn^]2i3IOMXKAYi^g1
+Z155 Vf=3cV0^BaS?ZZYnl;gG[V2
+R18
+Z156 w1780304976
+Z157 8C:/Users/dan/Desktop/CPU/lab4/CPU(BEQ)/mux_32_3to1.v
+Z158 FC:/Users/dan/Desktop/CPU/lab4/CPU(BEQ)/mux_32_3to1.v
+L0 2
+R22
+r1
+31
+Z159 !s90 -reportprogress|300|-work|work|-vopt|C:/Users/dan/Desktop/CPU/lab4/CPU(BEQ)/mux_32_3to1.v|
+R24
+Z160 !s108 1781098491.426000
+Z161 !s107 C:/Users/dan/Desktop/CPU/lab4/CPU(BEQ)/mux_32_3to1.v|
+!i10b 1
+!s85 0
+vmux_32_4to1
+Z162 !s100 VSTLBNVX5h3X5TVB@L:2V0
+Z163 I8k5T>J_ef0X]0^6Hbe=8=2
+Z164 VXc7;`Gc9Po1k?5B;BFDGz2
+R18
+Z165 w1780051093
+Z166 8C:/Users/dan/Desktop/CPU/lab4/CPU(BEQ)/mux_32_4to1.v
+Z167 FC:/Users/dan/Desktop/CPU/lab4/CPU(BEQ)/mux_32_4to1.v
+L0 1
+R22
+r1
+31
+Z168 !s90 -reportprogress|300|-work|work|-vopt|C:/Users/dan/Desktop/CPU/lab4/CPU(BEQ)/mux_32_4to1.v|
+R24
+Z169 !s108 1781098491.505000
+Z170 !s107 C:/Users/dan/Desktop/CPU/lab4/CPU(BEQ)/mux_32_4to1.v|
+!i10b 1
+!s85 0
+vmux_5_3to1
+Z171 !s100 81=FjX>M:3oZXS9X>Bi340
+Z172 Id^KzaTCJG4hGF<T`>7AU_0
+Z173 VXl^:ni@a6UI^0WdCTZOT@3
+R18
+Z174 w1780305170
+Z175 8C:/Users/dan/Desktop/CPU/lab4/CPU(BEQ)/mux_5_3to1.v
+Z176 FC:/Users/dan/Desktop/CPU/lab4/CPU(BEQ)/mux_5_3to1.v
+L0 2
+R22
+r1
+31
+Z177 !s90 -reportprogress|300|-work|work|-vopt|C:/Users/dan/Desktop/CPU/lab4/CPU(BEQ)/mux_5_3to1.v|
+R24
+Z178 !s108 1781098491.278000
+Z179 !s107 C:/Users/dan/Desktop/CPU/lab4/CPU(BEQ)/mux_5_3to1.v|
+!i10b 1
+!s85 0
+vpc
+Z180 !s100 D16_lno:BM1gP:W>ChNZ62
+Z181 IYJmHg5H]4IlSgP1KV8Rl@3
+Z182 VaMHV48E@oF3_KNahOhjP53
+R18
+Z183 w1780817809
+Z184 8C:/Users/dan/Desktop/CPU/lab4/CPU(BEQ)/pc.v
+Z185 FC:/Users/dan/Desktop/CPU/lab4/CPU(BEQ)/pc.v
+L0 2
+R22
+r1
+31
+Z186 !s90 -reportprogress|300|-work|work|-vopt|C:/Users/dan/Desktop/CPU/lab4/CPU(BEQ)/pc.v|
+R24
+!i10b 1
+!s85 0
+Z187 !s108 1781098491.584000
+Z188 !s107 C:/Users/dan/Desktop/CPU/lab4/CPU(BEQ)/pc.v|
+vpipeline_cpu
+!i10b 1
+Z189 !s100 YR?Z8QZfO:kSS3GB2<zb:3
+Z190 Icf>90UePE7<lzVbjL7ao52
+Z191 V650m8_13[RBId^T0jC>SZ3
+R18
+Z192 w1781098242
+Z193 8C:/Users/dan/Desktop/CPU/lab4/CPU(BEQ)/pipeline_cpu.v
+Z194 FC:/Users/dan/Desktop/CPU/lab4/CPU(BEQ)/pipeline_cpu.v
+L0 1
+R22
+r1
+!s85 0
+31
+!s108 1781098491.674000
+!s107 C:/Users/dan/Desktop/CPU/lab4/CPU(BEQ)/pipeline_cpu.v|
+Z195 !s90 -reportprogress|300|-work|work|-vopt|C:/Users/dan/Desktop/CPU/lab4/CPU(BEQ)/pipeline_cpu.v|
+R24
+vtb_cpu1
+Z196 !s100 1anzGZhUj<CJOlbG1n?h02
+Z197 I6IV?eQO8jXc@V4oO1Q_ce2
+Z198 Vl7@JS4VUd4LZ]JnW_C>k32
+R18
+Z199 w1781096610
+Z200 8C:/Users/dan/Desktop/CPU/lab4/CPU(BEQ)/sim/tb/tb_cpu1.v
+Z201 FC:/Users/dan/Desktop/CPU/lab4/CPU(BEQ)/sim/tb/tb_cpu1.v
+L0 1
+R22
+r1
+31
+Z202 !s90 -reportprogress|300|-work|work|-vopt|C:/Users/dan/Desktop/CPU/lab4/CPU(BEQ)/sim/tb/tb_cpu1.v|
+R24
+Z203 !s108 1781098490.018000
+Z204 !s107 C:/Users/dan/Desktop/CPU/lab4/CPU(BEQ)/sim/tb/tb_cpu1.v|
+!i10b 1
+!s85 0

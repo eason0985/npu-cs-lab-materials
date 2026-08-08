@@ -1,0 +1,12 @@
+library verilog;
+use verilog.vl_types.all;
+entity if_id is
+    port(
+        pc_4_out        : out    vl_logic_vector(31 downto 0);
+        instruction_out : out    vl_logic_vector(31 downto 0);
+        instruction_in  : in     vl_logic_vector(31 downto 0);
+        pc_4_in         : in     vl_logic_vector(31 downto 0);
+        clock           : in     vl_logic;
+        reset           : in     vl_logic
+    );
+end if_id;

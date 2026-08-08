@@ -1,0 +1,66 @@
+#include<stdio.h>
+#define INF 10000
+
+int main()
+{
+    int n;
+    scanf("%d",&n);
+    int g[101][101];
+    //      ڽӾ   
+    for(int i=0;i<n;i++)
+        for(int j=0;j<n;j++)
+            scanf("%d",&g[i][j]);
+    int start, end;
+    scanf("%d %d", &start, &end);
+    int dist[101];
+    int visited[101];
+    int prev[101];
+    //   ʼ     롢   ʱ Ǻ ǰ      
+    for(int i=0;i<n;i++)
+    {
+        dist[i]=g[start][i]; //       ĳ ʼ    
+        visited[i]=0;        // 0  ʾδ    
+        prev[i]=start;       // ǰ    ʼ  Ϊ   
+    }
+    dist[start]=0;
+    visited[start]=1;
+    prev[start]=-1;
+    // Dijkstra 㷨  ѭ  
+    for(int cnt=1;cnt<n;cnt++)
+    {
+        int min=INF, u=-1;
+        //   δ   ʵ      
+        for(int i=0;i<n;i++)
+        {
+            if(!visited[i]&&dist[i]<min)
+            {
+                min=dist[i];
+                u=i;
+            }
+        }
+        if(u==-1)
+            break;
+        visited[u]=1; //    Ϊ ѷ   
+        //           ľ    ǰ  
+        for(int v=0;v<n;v++)
+        {
+            if(!visited[v]&&dist[v]>dist[u]+g[u][v])
+            {
+                dist[v]=dist[u]+g[u][v];
+                prev[v]=u;
+            }
+        }
+    }
+    //           ·  
+    int path[101], count=0;
+    int current=end;
+    while(current!=-1)
+    {
+        path[count++]=current;
+        current=prev[current];
+    }
+    for(int i=count-1;i>=0;i--)
+        printf("%d\n", path[i]);
+
+    return 0;
+}

@@ -1,0 +1,290 @@
+m255
+K3
+13
+cModel Technology
+Z0 dE:\modelsim\examples
+T_opt
+V<mO<R?T7A0BKf5II3ze3k1
+Z1 04 7 4 work tb_cpu1 fast 0
+=1-cc28aabaff12-6a1a51ac-3d5-52f8
+o-quiet -auto_acc_if_foreign -work work
+n@_opt
+Z2 OL;O;10.1c;51
+Z3 dE:\modelsim\examples
+T_opt1
+V[0Q2h2WUcN1j6ZSZ275h?3
+R1
+=1-cc28aabaff12-6a1a524e-313-b0c0
+o-quiet -auto_acc_if_foreign -work work +acc
+n@_opt1
+R2
+vadd
+IRBfEMS7JA8N^PK9bgEB[U3
+VflJn4b=NjP_gah9dlNZHm3
+Z4 dC:\Users\dan\Desktop\CPU\lab2\CPU_J\sim
+w1780050186
+8C:/Users/dan/Desktop/CPU/lab2/CPU_J/add.v
+FC:/Users/dan/Desktop/CPU/lab2/CPU_J/add.v
+L0 1
+Z5 OL;L;10.1c;51
+r1
+31
+Z6 o-work work -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+!s100 I0^AVB4Gf1j>U6_TToVC30
+!s90 -reportprogress|300|-work|work|-vopt|C:/Users/dan/Desktop/CPU/lab2/CPU_J/add.v|
+!s108 1780109720.852000
+!s107 C:/Users/dan/Desktop/CPU/lab2/CPU_J/add.v|
+!i10b 1
+!s85 0
+valu
+I4KkMZ6E_IzMO2?1]Q]l^90
+VUX@5OObUd>e[EZXH2V4GI2
+R4
+w1780053152
+8C:/Users/dan/Desktop/CPU/lab2/CPU_J/alu.v
+FC:/Users/dan/Desktop/CPU/lab2/CPU_J/alu.v
+L0 15
+R5
+r1
+31
+R6
+!s100 ?9@d88FG41=82elW>h?ob2
+!s90 -reportprogress|300|-work|work|-vopt|C:/Users/dan/Desktop/CPU/lab2/CPU_J/alu.v|
+!s108 1780109720.920000
+!s107 C:/Users/dan/Desktop/CPU/lab2/CPU_J/alu.v|
+!i10b 1
+!s85 0
+vctrl
+IPTT7XU;:bz6FN9k5H<cJ>1
+Vj1B53VzA?R7?QMJFMoJz@0
+R4
+w1780053842
+8C:/Users/dan/Desktop/CPU/lab2/CPU_J/ctrl.v
+FC:/Users/dan/Desktop/CPU/lab2/CPU_J/ctrl.v
+L0 1
+R5
+r1
+31
+R6
+!s100 ^gFLZ<>h9ZCST8M8]>GlX1
+!s90 -reportprogress|300|-work|work|-vopt|C:/Users/dan/Desktop/CPU/lab2/CPU_J/ctrl.v|
+!s108 1780109720.991000
+!s107 C:/Users/dan/Desktop/CPU/lab2/CPU_J/ctrl.v|
+!i10b 1
+!s85 0
+vdm
+IXbJoRIJgzA=2jH<mk>7NN3
+VPRbDI>GD@ANPR]5`ToEjA0
+R4
+w1779885476
+8C:/Users/dan/Desktop/CPU/lab2/CPU_J/dm.v
+FC:/Users/dan/Desktop/CPU/lab2/CPU_J/dm.v
+L0 2
+R5
+r1
+31
+R6
+!s100 dJ?[Q:4Fo^<fDlELAl;`V0
+!s90 -reportprogress|300|-work|work|-vopt|C:/Users/dan/Desktop/CPU/lab2/CPU_J/dm.v|
+!s108 1780109721.062000
+!s107 C:/Users/dan/Desktop/CPU/lab2/CPU_J/dm.v|
+!i10b 1
+!s85 0
+vext
+ITVdn0WH:_<mEHWPLI`ZFm1
+VjH;XC^CjJKWXIBVEC^]323
+R4
+w1779882265
+8C:/Users/dan/Desktop/CPU/lab2/CPU_J/ext.v
+FC:/Users/dan/Desktop/CPU/lab2/CPU_J/ext.v
+L0 1
+R5
+r1
+31
+R6
+!s100 ?NazLSI<VA2O4KDI@4V6?1
+!s90 -reportprogress|300|-work|work|-vopt|C:/Users/dan/Desktop/CPU/lab2/CPU_J/ext.v|
+!s108 1780109721.132000
+!s107 C:/Users/dan/Desktop/CPU/lab2/CPU_J/ext.v|
+!i10b 1
+!s85 0
+vgpr
+ILg7VAhUN2OKnYSGRb=DA@3
+VP^8[::KZQd6@5[0QmJ^0Q3
+R4
+w1779526547
+8C:/Users/dan/Desktop/CPU/lab2/CPU_J/gpr.v
+FC:/Users/dan/Desktop/CPU/lab2/CPU_J/gpr.v
+L0 2
+R5
+r1
+31
+R6
+!s100 =bP4HA=XgEJ`aU_LM3EfU0
+!s90 -reportprogress|300|-work|work|-vopt|C:/Users/dan/Desktop/CPU/lab2/CPU_J/gpr.v|
+!s108 1780109721.202000
+!s107 C:/Users/dan/Desktop/CPU/lab2/CPU_J/gpr.v|
+!i10b 1
+!s85 0
+vim
+I=YgJ::i^Y36CIi7hAV:1`1
+VGKc5Q>9SOgYi@iPiKRP_]3
+R4
+w1779456866
+8C:/Users/dan/Desktop/CPU/lab2/CPU_J/im.v
+FC:/Users/dan/Desktop/CPU/lab2/CPU_J/im.v
+L0 2
+R5
+r1
+31
+R6
+!s100 5M3eIHUmRi7^2ZZJ@b[D62
+!s90 -reportprogress|300|-work|work|-vopt|C:/Users/dan/Desktop/CPU/lab2/CPU_J/im.v|
+!s108 1780109721.272000
+!s107 C:/Users/dan/Desktop/CPU/lab2/CPU_J/im.v|
+!i10b 1
+!s85 0
+vjump
+I;1LVk8`1JWjbQAb>UaGZ63
+VT^QZN_EzKc<?BKmA<Q;0j1
+R4
+w1780024081
+8C:/Users/dan/Desktop/CPU/lab2/CPU_J/jump.v
+FC:/Users/dan/Desktop/CPU/lab2/CPU_J/jump.v
+L0 1
+R5
+r1
+31
+R6
+!s100 eidkkU6J<lEzWznD^]c7Q0
+!s90 -reportprogress|300|-work|work|-vopt|C:/Users/dan/Desktop/CPU/lab2/CPU_J/jump.v|
+!s108 1780109721.358000
+!s107 C:/Users/dan/Desktop/CPU/lab2/CPU_J/jump.v|
+!i10b 1
+!s85 0
+vmux_32_2to1
+IS>N8[JEI2X6K5ZU<QW=<91
+VUm[Q?Pck:iCNl=UQHHj<l0
+R4
+w1780050871
+8C:/Users/dan/Desktop/CPU/lab2/CPU_J/mux_32_2to1.v
+FC:/Users/dan/Desktop/CPU/lab2/CPU_J/mux_32_2to1.v
+L0 1
+R5
+r1
+31
+R6
+!s100 AVcUeAgYliIcXO]6O8Hoa3
+!s90 -reportprogress|300|-work|work|-vopt|C:/Users/dan/Desktop/CPU/lab2/CPU_J/mux_32_2to1.v|
+!s108 1780109721.574000
+!s107 C:/Users/dan/Desktop/CPU/lab2/CPU_J/mux_32_2to1.v|
+!i10b 1
+!s85 0
+vmux_32_3to1
+IGGl`Qi8V_@dcQcIZB4=:m0
+Vf=3cV0^BaS?ZZYnl;gG[V2
+R4
+w1780051124
+8C:/Users/dan/Desktop/CPU/lab2/CPU_J/mux_31_3to1.v
+FC:/Users/dan/Desktop/CPU/lab2/CPU_J/mux_31_3to1.v
+L0 1
+R5
+r1
+31
+R6
+!s100 ^[GoCmjO]EZ<VVDzX[MMf3
+!s90 -reportprogress|300|-work|work|-vopt|C:/Users/dan/Desktop/CPU/lab2/CPU_J/mux_31_3to1.v|
+!s108 1780109721.502000
+!s107 C:/Users/dan/Desktop/CPU/lab2/CPU_J/mux_31_3to1.v|
+!i10b 1
+!s85 0
+vmux_32_4to1
+IKVF_5KWh0Q9F<Y^d3boab0
+VXc7;`Gc9Po1k?5B;BFDGz2
+R4
+w1780051093
+8C:/Users/dan/Desktop/CPU/lab2/CPU_J/mux_32_4to1.v
+FC:/Users/dan/Desktop/CPU/lab2/CPU_J/mux_32_4to1.v
+L0 1
+R5
+r1
+31
+R6
+!s100 N<OE2_GadA4zeJ=gj7BkA1
+!s90 -reportprogress|300|-work|work|-vopt|C:/Users/dan/Desktop/CPU/lab2/CPU_J/mux_32_4to1.v|
+!s108 1780109721.660000
+!s107 C:/Users/dan/Desktop/CPU/lab2/CPU_J/mux_32_4to1.v|
+!i10b 1
+!s85 0
+vmux_5
+I`Um[0oW?8F7KgQ5g6ZSYa2
+VN[iIak_QeT_LbOmmRSCP>3
+R4
+w1780022866
+8C:/Users/dan/Desktop/CPU/lab2/CPU_J/mux_5.v
+FC:/Users/dan/Desktop/CPU/lab2/CPU_J/mux_5.v
+L0 2
+R5
+r1
+31
+R6
+!s100 8>OLBF2<bd3Qi?LRNom2?3
+!s90 -reportprogress|300|-work|work|-vopt|C:/Users/dan/Desktop/CPU/lab2/CPU_J/mux_5.v|
+!s108 1780109721.430000
+!s107 C:/Users/dan/Desktop/CPU/lab2/CPU_J/mux_5.v|
+!i10b 1
+!s85 0
+vpc
+IbUjHFgeHGnBD^>Fi:J`Jc0
+VA?NInE:=QUI?55fo70hZU0
+R4
+w1779456748
+8C:/Users/dan/Desktop/CPU/lab2/CPU_J/pc.v
+FC:/Users/dan/Desktop/CPU/lab2/CPU_J/pc.v
+L0 2
+R5
+r1
+31
+R6
+!s100 0>RSR;_5RlSDP^oiHcUhE1
+!s90 -reportprogress|300|-work|work|-vopt|C:/Users/dan/Desktop/CPU/lab2/CPU_J/pc.v|
+!s108 1780109721.730000
+!s107 C:/Users/dan/Desktop/CPU/lab2/CPU_J/pc.v|
+!i10b 1
+!s85 0
+vs_cycle_cpu
+IkVc[=l`d9FQ`5;me_hRi^0
+V<7P6AQ8kIkLgc]l7EiHgC1
+R4
+w1780053091
+8C:/Users/dan/Desktop/CPU/lab2/CPU_J/s_cycle_cpu.v
+FC:/Users/dan/Desktop/CPU/lab2/CPU_J/s_cycle_cpu.v
+L0 1
+R5
+r1
+31
+R6
+!s100 aKo<G]E>HJBb>M05ikd751
+!s90 -reportprogress|300|-work|work|-vopt|C:/Users/dan/Desktop/CPU/lab2/CPU_J/s_cycle_cpu.v|
+!s108 1780109721.800000
+!s107 C:/Users/dan/Desktop/CPU/lab2/CPU_J/s_cycle_cpu.v|
+!i10b 1
+!s85 0
+vtb_cpu1
+I;?XJ6ZIbg9=FXHNNRjl4L0
+Vl7@JS4VUd4LZ]JnW_C>k32
+R4
+w1779890781
+8C:/Users/dan/Desktop/CPU/lab2/CPU_J/sim/tb/tb_cpu1.v
+FC:/Users/dan/Desktop/CPU/lab2/CPU_J/sim/tb/tb_cpu1.v
+L0 1
+R5
+r1
+31
+R6
+!i10b 1
+!s100 B`ZYke1UZ^C;Y9?IENFh30
+!s85 0
+!s108 1780109721.872000
+!s107 C:/Users/dan/Desktop/CPU/lab2/CPU_J/sim/tb/tb_cpu1.v|
+!s90 -reportprogress|300|-work|work|-vopt|C:/Users/dan/Desktop/CPU/lab2/CPU_J/sim/tb/tb_cpu1.v|

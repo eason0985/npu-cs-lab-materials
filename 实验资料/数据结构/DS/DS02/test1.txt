@@ -1,0 +1,56 @@
+#include <stdio.h>
+
+//     ÿ еĵ һ к͵ڶ   
+void t(int a[400][3],int n)
+{
+    int temp;
+    for(int i=0;i<n;i++)
+    {
+        temp=a[i][0];
+        a[i][0]=a[i][1];
+        a[i][1]=temp;
+    }
+}
+
+//     һ         򣬵 һ    ͬ 򰴵ڶ       
+void sort(int a[][3],int n)
+{
+    for(int i=0;i<n-1;i++)
+    {
+        int min=i;
+        for(int j=i+1;j<n;j++)
+        {
+            if(a[j][0]<a[min][0]||(a[j][0]==a[min][0]&&a[j][1]<a[min][1])) min=j;
+        }
+        if(min!=i)
+        {
+            for(int k=0;k<3;k++)
+            {
+                int temp=a[i][k];
+                a[i][k]=a[min][k];
+                a[min][k]=temp;
+            }
+        }
+    }
+}
+
+int main()
+{
+    int n,m;
+    scanf("%d %d",&n,&m);
+    int a[400][3];
+    int cnt=0;
+    //   ȡ    ֱ  0 0 0
+    while(scanf("%d %d %d", &a[cnt][0], &a[cnt][1], &a[cnt][2])) {
+        if (a[cnt][0] == 0 && a[cnt][1] == 0 && a[cnt][2] == 0) break;
+        ++cnt;
+    }
+    t(a,cnt);  //       
+    sort(a,cnt);  //     
+    //       
+    for(int i=0;i<cnt;i++)
+    {
+        printf("%d %d %d\n",a[i][0],a[i][1],a[i][2]);
+    }
+    return 0;
+}

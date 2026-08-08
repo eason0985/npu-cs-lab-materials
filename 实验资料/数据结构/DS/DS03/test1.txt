@@ -1,0 +1,146 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+//            
+typedef struct hnode
+{
+    int weight;
+    int parent;
+    int lchild;
+    int rchild;
+} *huffmantree;
+
+// ѡ  Ȩֵ  С       ڵ 
+void myselect(huffmantree *h, int n, int *s1, int *s2)
+{
+    int i, min1 = -1, min2 = -1;
+    for (i = 0; i < n; i++)
+    {
+        if (h[i]->parent == -1)
+        {
+            if (min1 == -1 || h[i]->weight < h[min1]->weight) min1 = i;
+        }
+    }
+    for (i = 0; i < n; i++)
+    {
+        if (h[i]->parent == -1 && i != min1)
+        {
+            if (min2 == -1 || h[i]->weight < h[min2]->weight) min2 = i;
+        }
+    }
+    *s1 = min1;
+    *s2 = min2;
+}
+
+//             
+void createhuffmantree(huffmantree *h, int n)
+{
+    for (int i = 0; i < 2 * n - 1; i++)
+    {
+        h[i]->parent = -1;
+        h[i]->lchild = -1;
+        h[i]->rchild = -1;
+    }
+    for (int i = n; i < 2 * n - 1; i++)
+    {
+        int s1, s2;
+        myselect(h, i, &s1, &s2);
+        h[s1]->parent = i;
+        h[s2]->parent = i;
+        h[i]->weight = h[s1]->weight + h[s2]->weight;
+        h[i]->lchild = s1;
+        h[i]->rchild = s2;
+    }
+}
+
+//    ɹ         
+void huffmancode(huffmantree *h, int n, char **codes,char *cd)
+{
+    for (int i = 0; i < n; i++)
+    {
+        int start = n - 1;
+        int c = i, f = h[i]->parent;
+        cd[n - 1] = '\0';
+        //   ɱ   
+        while (f != -1)
+        {
+            if (h[f]->lchild == c)
+                cd[--start] = '0';
+            else
+                cd[--start] = '1';
+            c = f;
+            f = h[c]->parent;
+        }
+        codes[i] = (char *)malloc((n - start) * sizeof(char));
+        strcpy(codes[i], cd + start);
+    }
+}
+
+//      ַ    ַ    е  ± 
+int find(char **codes, char *chs, int n, char ch)
+{
+    for (int i = 0; i < n; i++)
+        if (chs[i] == ch)
+            return i;
+}
+
+int main()
+{
+    int n;
+    scanf("%d", &n);
+    char a[n + 1]; //  ַ     
+    int b[n];      // Ȩֵ    
+    char cd[n+1];
+    for (int i = 0; i < n; i++)
+    {
+        scanf(" %c", &a[i]);
+    }
+    for (int i = 0; i < n; i++)
+    {
+        scanf("%d", &b[i]);
+    }
+    //             
+    huffmantree *h;
+    h = (huffmantree *)malloc((2 * n - 1) * sizeof(huffmantree));
+    for (int i = 0; i < 2 * n - 1; i++)
+    {
+        h[i] = (huffmantree)malloc(sizeof(struct hnode));
+        h[i]->weight = 0;
+        h[i]->parent = -1;
+        h[i]->lchild = -1;
+        h[i]->rchild = -1;
+    }
+    for (int i = 0; i < n; i++)
+    {
+        h[i]->weight = b[i];
+    }
+    createhuffmantree(h, n);
+
+    //    ɹ         
+    char **codes = (char **)malloc(n * sizeof(char *));
+    huffmancode(h, n, codes,cd);
+
+    char before[101], after[1001] = "";
+    scanf("%s", before); //     Ҫ    ı   
+
+    //        
+    for (int cnt = 0; before[cnt]; cnt++) {
+        int idx = find(codes, a, n, before[cnt]);
+        strcat(after, codes[idx]);
+    }
+    printf("%s\n", after);   //         Ķ    ƴ 
+    printf("%s", before);    //    ԭ  
+
+    //  ͷ  ڴ 
+    for (int i = 0; i < n; i++)
+    {
+        free(codes[i]);
+    }
+    free(codes);
+    for (int i = 0; i < 2 * n - 1; i++) {
+        free(h[i]);
+    }
+    free(h);
+    return 0;
+}
